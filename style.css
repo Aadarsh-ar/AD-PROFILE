@@ -1,0 +1,123 @@
+body{
+    background-color: rgb(5, 5, 5);
+     color:white;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100%;
+}
+
+nav{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 65%;
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100%;
+     color: aqua;
+    
+} 
+nav ul li :hover{
+    color: rgba(253, 5, 5, 0.904);
+}
+nav ul li{
+   font-size: 1.5cap;
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+    position: relative;
+    border-radius: 10px;
+    color: darkorange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    color: white;
+    font-style: italic;
+    font-size: 4cap;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100%;
+}
+span {
+    color: red;
+    padding-left: 20px;
+   
+}
+nav:hover{
+    color: aqua;
+}
+h2{
+    font-weight: 100;
+    font-size: 6cap;
+    padding-left: 100px;
+   
+}nav ul li a{
+    color: white;
+    transition: 1.5s;
+}
+h2{
+    position: absolute;
+    justify-items: end;
+    padding-left: 1000px;
+    font-size: 5.5cap;
+    font-weight: 13cap;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: baseline;
+}
+h4{
+    font-size: 2cap;
+    padding-left: 300px;
+
+}
+.a{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 5cap;
+}
+h5{
+    font-size: 2cap;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+   padding-left: 5% 5%;
+   font-size: 1.5cap;
+    display: inline-block;
+    list-style: none;
+    margin: 5px 5px;
+    position: relative;
+    border-radius: 5px;
+
+}
+@media (min-width:600px) {
+   body background-image: 100%; 
+}
+@media only screen and (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2{
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    body {
+      font-size: 14px;
+    }
+  
+    h1{
+      padding: 30px;
+    }
+  
+    nav ul li a {
+      padding: 8px;
+    }
+  }
